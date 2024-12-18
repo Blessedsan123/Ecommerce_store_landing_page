@@ -1,0 +1,2 @@
+  background: linear-gradient(155deg, #e2cbffc4 60%, #e6c2ff 50%);
+    background-repeat: no-repeat;

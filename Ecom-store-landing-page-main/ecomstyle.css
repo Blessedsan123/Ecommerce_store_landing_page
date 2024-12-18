@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        body{
+            font-family: 'Crete Round', serif;
+        }
+nav{
+    display:flex;
+    margin:0px;
+    background-color: white;
+    border-radius:20px;
+    padding: auto 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+   
+    
+}
+nav h1{
+    font-size: 40px;
+    padding-top:0;
+    padding-left: 30px;
+}
+nav h1:hover{
+    transform: scale(1.1);
+    transition-duration: .5s;
+}
+nav ul{
+    display:flex;
+    padding-top:30px;
+    margin-left: 50px;
+
+}
+nav li{
+    list-style-type: none;
+    margin:0px 20px
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    text-transform:capitalize;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 5px;
+ 
+}
+nav a:hover{
+    border-bottom: 3px solid black;
+    transition: .3s;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+
+span{
+    color: brown;
+}
+nav input[type="search"]{
+    margin-left: 100px;
+    height:35px;width:430px;
+    margin-top:45px;
+    border-radius:10px;
+    border:1px solid black;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding-left: 20px;
+    color: black;
+    border-right: 0px;
+}
+nav button img{
+height: 30px;width: 30px;
+}
+nav button{
+    height: 35px;width: 60px;
+    margin-top: 45px;
+    border-radius: 10px;
+    border: 1px solid black;
+    mix-blend-mode:luminosity;
+    cursor: pointer;
+    border-top-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+   border-left: 0px;
+}
+nav div a.login{
+    background-color: brown;
+    color: #faf4ff;
+    padding: 8% 20px;
+    border-radius: 12px;
+    border-bottom: 0px;
+}
+nav div:hover{
+    transform: scale(1.05);
+    transition-duration: .5s;
+}
+#first .image img{
+    height:70px;
+    width: 80px;
+    padding: 30px 7px;
+    border-radius: 80px;
+}
+#first .image{
+
+    display:inline-block;
+    padding-left: 15px;
+    height:120px ;width: 120px;
+
+}
+#first{
+    padding:5px 50px;
+    margin-top: 120px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  
+}
+#first .image a{
+   
+    display: block;
+    text-decoration: none;
+    margin: 0px ;
+    padding:0px;
+    color: black;
+    padding-left: 20px;
+}
+#first .image a select{
+    border: none;
+    height: 20px;
+    width: 20px;   
+}
+#first .image a select option{
+   font-size: larger;
+}
+.container h3{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.container{
+    margin-top: 20px;
+
+}
+#third .imgcontainer img{
+    height: 170px;width: 250px;
+    
+    border-radius: 30px 50px;
+}
+#third .imgcontainer p{
+    font-family: 'Poppins', sans-serif;
+text-align: center;
+}
+#third{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding-left: 27px;
+    padding-bottom: 30px;
+    background: white;
+}
+.imgcontainer{
+ 
+    display:inline-block;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.bold{
+    color: black;
+    font-weight: 600;
+}
+#second{
+    padding:20px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    display: inline-flex;
+}
+#second video{
+    width: 1300px; height: 250px;
+    padding-right: 50px;
+    padding-left: 0;
+
+}
+
+#fourth .image {
+    float: right;
+    margin: 10px 10px;
+    height: 600px;width: 700px;
+    background-image:url("redmi.jpg") ;
+    border-radius: 20px 40px;
+    
+}
+#fourth .image .me a{
+   display: inline-flex;
+   text-decoration: none;
+   color:white;
+   font-family: 'Poppins', sans-serif;
+   font-size: 30px;
+   margin-top: 50px;
+   margin-left: 50px;
+   border-left: 3px solid white;
+   border-bottom: 3px solid white;
+   border-radius: 50px 20px;
+   padding: 5px 20px;
+}
+#fourth .image .me a:hover{
+    transform: scale(1.1);
+   cursor:pointer;
+   transition-duration: .3s;
+}
+
+.image p{
+    color: white;
+    margin: 70px 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-style: bold;
+}
+#five{
+
+    padding-left:30px;
+    padding-right:0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    width: 610px;
+    font-family: 'Poppins', sans-serif;
+   margin-top: 10px;
+   
+}
+#five .mix{
+   display: inline-block;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 8px 16px rgba(0, 0, 0, .05);
+   border-radius: 30px 40px;
+    width: 150px;
+    height: 240px;
+    padding:0px 15px;
+    margin: 10px 5px;
+    font-size: small;
+    
+}
+#five .mix img{
+    padding-top: 10px;
+    height: 150px; width: 150px;
+    border-radius: 30px 50px;
+}
+
+.mix span{
+    color: green;
+}
+
+img:hover{
+   transform: scale(1.1);
+   cursor: grab;
+   transition-duration: .3s;
+}
+.add img{
+    display: inline-block;
+    width: 620px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   border-radius: 50px;
+}
+.add{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 8px 16px rgba(0, 0, 0, .05);
+   border-radius: 30px 40px;
+}
+.six{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.six .links{
+    display: flex;
+    color: white;
+    justify-content: start;
+    margin: 10px 30px;
+    padding-left: 30px;
+    font-size: small;
+    padding-bottom: 40px;
+}
+.six .links a{
+    text-decoration: none;
+    color: white;
+}
+.links a:hover{
+    border-bottom: 2px solid white;
+}
+.six li{
+    list-style-type: none;
+}
+.six h4{
+    color: darkgrey;
+    margin:20px 40px;
+    margin-top: 50px;
+}
+.li,.lin{
+    justify-content: center;
+}
+.lin{
+    margin-left: 160px;
+    font-size: small;
+}
+
